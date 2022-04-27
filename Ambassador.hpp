@@ -7,7 +7,7 @@ namespace coup {
             Game game;
             string name;
         public:
-        Ambassador(Game game, string name);
-        void transfer(Player player1, Player player2);
+        Ambassador(Game const &game, string const &name);
+        void transfer(Player const &player1, Player const &player2);
     };
 }
