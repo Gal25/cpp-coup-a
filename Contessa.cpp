@@ -1,12 +1,11 @@
 #include "Contessa.hpp"
-// #include "Player.hpp"
 #include <stdexcept>
 #include <iostream>
 using namespace std;
 
 namespace coup {
     
-    Contessa::Contessa(Game game, string name){}
-    // void block(Player Player){}
+    Contessa::Contessa(Game const &game, string const &name){}
+    void Contessa::block(Player const &Player){}
 
 }
