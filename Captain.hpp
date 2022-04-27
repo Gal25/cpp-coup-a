@@ -8,8 +8,8 @@ namespace coup {
             Game game;
             string name;
         public:
-        Captain(Game game, string name);
-        // void block(Player player);
-        // void steal(Player player);
+        Captain(Game const &game, string const &name);
+        void block(Player const &player);
+        void steal(Player const &player);
     };
 }
