@@ -1,7 +1,6 @@
 #include <vector>
 #include <iostream>
 
-// #include "Player.hpp"
 #pragma once
 
 
@@ -14,9 +13,9 @@ namespace coup {
             vector<string> players_names;
         public:
         Game();
-        string turn();
+        static string turn();
         vector<string> players();
-        string winner();   
+        static string winner();   
     };
 
     
