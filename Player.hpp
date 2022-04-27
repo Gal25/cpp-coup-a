@@ -10,7 +10,6 @@ namespace coup {
     class Player {
         protected:
             Game game; 
-            string PlayerName;
             int PlayerCoin;
             string PlayerRole;
             
@@ -22,6 +21,3 @@ namespace coup {
             static int coins();
     };
 }
-
-
-
