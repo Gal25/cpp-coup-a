@@ -6,7 +6,7 @@ using namespace std;
 
 namespace coup {
     
-    Ambassador::Ambassador(Game game, string name){}
-    void Ambassador::transfer(Player player1, Player player2){}
+    Ambassador::Ambassador(Game const &game, string const &name){}
+    void Ambassador::transfer(Player const &player1, Player const &player2){}
 
 }
