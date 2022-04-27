@@ -6,6 +6,6 @@ using namespace std;
 
 namespace coup {
     
-    Assassin::Assassin(Game game, string name){}
-
+    Assassin::Assassin(Game const &game, string const &name){}
+    void Assassin::block(Player const &player){}
 }
