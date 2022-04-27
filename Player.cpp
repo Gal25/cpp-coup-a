@@ -12,15 +12,12 @@ namespace coup {
 
         void Player::income(){}
         void Player::foreign_aid(){}
-        void Player::coup(Player player){}
-        string Player::role(Player player){
+        void Player::coup(Player const &player){}
+        string Player::role(Player const &player){
             return "";
         }
         int Player::coins(){
             return 0;
         } 
-        void Player::block(Player player){}
-        void Player::steal(Player player){}
-
     
 }
