@@ -1,7 +1,7 @@
-// #include <iostream>
-// #include <fstream>
-// #include <sstream>
-// #include <stdexcept>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <stdexcept>
 #include "doctest.h"
 #include <vector>
 #include "Game.hpp"
