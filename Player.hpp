@@ -10,20 +10,18 @@ namespace coup {
     class Player {
         protected:
             Game game; 
-            string nameplayer;
-            int player_coin;
-            string player_role;
+            string PlayerName;
+            int PlayerCoin;
+            string PlayerRole;
             
         public:
             void income();
             void foreign_aid();
-            void coup(Player player);
-            string role(Player player);
-            int coins();
-            void block(Player player);
-            void steal(Player player);
-
+            void coup(Player const &player);
+            static string role(Player const &player);
+            static int coins();
     };
 }
+
 
 
